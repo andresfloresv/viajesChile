@@ -3,3 +3,11 @@ nav{
     background-color: rgb(37, 158, 169);
     position: fixed;
 }
+section{
+    background-color: black;
+    color: white;
+}
+#fontA{
+    text-align: center;
+    background-color: rgb(37, 158, 169);
+}
