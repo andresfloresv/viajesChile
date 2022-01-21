@@ -25,3 +25,10 @@ section{
 .btn{
     background-color: rgb(37, 158, 169);
 }
+footer{
+    background-color: rgb(37, 158, 169);
+    color: white;
+}
+#socialNet{
+    align-content: flex-end;
+}
