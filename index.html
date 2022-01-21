@@ -19,6 +19,7 @@
 
 <body>    
     <!--Cabecera Bootstrap-->
+    <!--Los elementos del menú poseen tooltips-->
     <header>
       <nav class="navbar navbar-expand-lg navbar-dark fixed-top" > 
         <div class="container-fluid">
@@ -34,13 +35,13 @@
                 <a class="nav-link active" aria-current="page" href="#">Inicio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Quienes Somos</a>
+                <a class="nav-link" href="#" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Nuestra historia">Quienes Somos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Destacados</a>
+                <a class="nav-link" href="#" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Catálogo en línea">Destacados</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link">Contacto</a>
+                <a class="nav-link" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Visiíte nuestras oficinas">Contacto</a>
               </li>
             </ul>
           </div>
@@ -103,6 +104,7 @@
     </section>
 
     <!--Tarjetas "DESTACADOS"-->
+    <!--Si se hace click en alguna de las imagenes de las card, se cierran los parrafos, lentamente-->
     <section class="container-fluid py-4 px-4">
       <h5 class="text-center py-3">DESTACADOS</h5>
 
@@ -112,7 +114,7 @@
             <img src="assets/img/card1.jpg" class="card-img-top" id="imgCarta" alt="carta1">
             <div class="card-body">
               <h5 class="card-title">Lorem ipsum dolor</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor delectus ipsa repellendus harum eum rem, maxime dicta dolores corrupti quisquam explicabo, esse impedit, error dolorem eius atque illum commodi qui.</p>
+              <p class="card-text" id="txtTjta">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor delectus ipsa repellendus harum eum rem, maxime dicta dolores corrupti quisquam explicabo, esse impedit, error dolorem eius atque illum commodi qui.</p>
             </div>
           </div>
         </div>
@@ -122,7 +124,7 @@
             <img src="assets/img/card2.jpg" class="card-img-top" id="imgCarta" alt="carta2">
             <div class="card-body">
               <h5 class="card-title">consectetur adipisici</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor delectus ipsa repellendus harum eum rem, maxime dicta dolores corrupti quisquam explicabo, esse impedit, error dolorem eius atque illum commodi qui.</p>
+              <p class="card-text" id="txtTjta">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor delectus ipsa repellendus harum eum rem, maxime dicta dolores corrupti quisquam explicabo, esse impedit, error dolorem eius atque illum commodi qui.</p>
             </div>
           </div>
         </div>
@@ -132,7 +134,7 @@
             <img src="assets/img/card3.jpg" class="card-img-top" id="imgCarta"  alt="carta3">
             <div class="card-body">
               <h5 class="card-title">Dolor delectus ipsa</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor delectus ipsa repellendus harum eum rem, maxime dicta dolores corrupti quisquam explicabo, esse impedit, error dolorem eius atque illum commodi qui.</p>
+              <p class="card-text" id="txtTjta">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor delectus ipsa repellendus harum eum rem, maxime dicta dolores corrupti quisquam explicabo, esse impedit, error dolorem eius atque illum commodi qui.</p>
             </div>
           </div>
         </div>
@@ -142,7 +144,7 @@
             <img src="assets/img/card4.jpg" class="card-img-top" id="imgCarta" alt="carta4">
             <div class="card-body">
               <h5 class="card-title">repellendus harum</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor delectus ipsa repellendus harum eum rem, maxime dicta dolores corrupti quisquam explicabo, esse impedit, error dolorem eius atque illum commodi qui.</p>
+              <p class="card-text" id="txtTjta">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor delectus ipsa repellendus harum eum rem, maxime dicta dolores corrupti quisquam explicabo, esse impedit, error dolorem eius atque illum commodi qui.</p>
             </div>
           </div>
         </div>
@@ -150,6 +152,8 @@
     </section>
 
     <!--Formularios-->
+    <!--El botón de envío tiene un tooltip-->
+    <!--Al presionar el botón, retorna un mensaje de confirmación-->
     <section class="container-fluid py-4 px-4">
       <h5 class="text-center py-3">CONTACTO</h5>
       <form>

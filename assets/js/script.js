@@ -12,4 +12,8 @@ $(function(){
         alert( nombre + ` su mensaje ha sido enviado correctamente`);
     })
 
+    $("#tarjeta div img").click(function(){
+        $("#tarjeta div div p").animate({'height': 'toggle'}, 'slow');
+    })
+
 })
