@@ -1,4 +1,15 @@
-
+*{
+    font-family: 'Cabin', sans-serif;
+    font-weight: 400;
+    /*Se aplica la fuente 'Cabin' a todo el texto con weoght 400*/
+}
+h5{
+    font-weight: 700;
+}
+span{
+    font-weight: 700;
+    /*Se aplica para los Tag h5 (títulos) y span (pié de página) weight 700 de la fuente aplicada*/
+}
 nav{ 
     background-color: rgb(37, 158, 169);
     position: fixed;
