@@ -25,7 +25,7 @@
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
+                <ul class="navbar-nav ms-auto">
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                   </li>
@@ -103,7 +103,7 @@
       <h5 class="text-center py-3">DESTACADOS</h5>
 
       <div class="row">
-        <div class="col-md-3 col-12 px-3 py-3" id="tarjeta">
+        <div class="col-md-3 col-12 px-2 py-3" id="tarjeta">
           <div class="card" style="width: 100%;">
             <img src="assets/img/card1.jpg" class="card-img-top" id="imgCarta" alt="carta1">
             <div class="card-body">
@@ -113,7 +113,7 @@
           </div>
         </div>
 
-        <div class="col-md-3 col-12 px-3 py-3" id="tarjeta">
+        <div class="col-md-3 col-12 px-2 py-3" id="tarjeta">
           <div class="card" style="width: 100%;">
             <img src="assets/img/card2.jpg" class="card-img-top" id="imgCarta" alt="carta2">
             <div class="card-body">
@@ -123,7 +123,7 @@
           </div>
         </div>
 
-        <div class="col-md-3 col-12 px-3 py-3" id="tarjeta">
+        <div class="col-md-3 col-12 px-2 py-3" id="tarjeta">
           <div class="card" style="width: 100%;">
             <img src="assets/img/card3.jpg" class="card-img-top" id="imgCarta"  alt="carta3">
             <div class="card-body">
@@ -133,7 +133,7 @@
           </div>
         </div>
 
-        <div class="col-md-3 col-12 px-3 py-3" id="tarjeta">
+        <div class="col-md-3 col-12 px-2 py-3" id="tarjeta">
           <div class="card" style="width: 100%;">
             <img src="assets/img/card4.jpg" class="card-img-top" id="imgCarta" alt="carta4">
             <div class="card-body">
@@ -143,6 +143,31 @@
           </div>
         </div>
       </div>
+    </section>
+
+    <!--Formularios-->
+    <section class="container-fluid py-4 px-4">
+      <h5 class="text-center py-3">CONTACTO</h5>
+      <form>
+
+        <div class="mb-3">
+          <label for="nameInput" class="form-label">Nombre</label>
+          <input type="name" class="form-control" id="nameInput">
+        </div>
+
+        <div class="mb-3">
+          <label for="subject" class="form-label">Asunto</label>
+          <input type="subject" class="form-control" id="subject">
+        </div>
+
+        <div class="mb-3">
+          <label for="message" class="form-label">Mensaje</label>
+          <textarea class="form-control" id="message" rows="4"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Enviar</button>
+
+      </form>
     </section>
 
     <!--CMD JS Bootstrap-->

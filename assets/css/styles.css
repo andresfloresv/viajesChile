@@ -2,18 +2,26 @@
 nav{ 
     background-color: rgb(37, 158, 169);
     position: fixed;
+    /*se fija el color del navegador y se fija al borde superior de la pantalla*/
 }
 section{
     background-color: black;
     color: white;
+    /*se fija el color del bacground y del texto a todos los elementos section*/
 }
 #fontA{
     text-align: center;
     background-color: rgb(37, 158, 169);
+    /*se fija las posiciones y color de background de los elementos de Font Awesome*/
 }
 .card{
     background-color: rgb(37, 158, 169);
+    /*Se fija color de las tarjetas*/
 }
 #imgCarta{
     height: 20ch;
+    /*Se fija el alto de todas las imágenes de las tarjetas*/
+}
+.btn{
+    background-color: rgb(37, 158, 169);
 }
